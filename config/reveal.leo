@@ -49,6 +49,8 @@
 <v t="leo.20210421173859.1"><vh>影片</vh></v>
 </v>
 <v t="leo.20200818171138.1"><vh>slide 5 </vh>
+<v t="leo.20210422005743.1"><vh>newHeadline</vh></v>
+<v t="leo.20210422005842.1"><vh>newHeadline</vh></v>
 <v t="leo.20210418211321.1"><vh>slide 5-1</vh></v>
 <v t="leo.20210418211620.1"><vh>slide 5-2</vh></v>
 <v t="leo.20210418211716.1"><vh>slide 5-3</vh></v>
@@ -281,7 +283,7 @@ vertical: body pane on the botton</t>
 
 </t>
 <t tx="leo.20200818195748.1">&lt;section&gt;
-&lt;iframe height="620" src="https://drive.google.com/file/d/1DhByVUlCXPZ6WY2oT5gK-zvgHnzTMqlH/view?usp=preview" width="550"&gt;&lt;/iframe&gt;
+&lt;iframe height="620" src="https://drive.google.com/file/d/1DhByVUlCXPZ6WY2oT5gK-zvgHnzTMqlH/preview" width="550"&gt;&lt;/iframe&gt;
 &lt;/section&gt;
 
 
@@ -352,7 +354,6 @@ vertical: body pane on the botton</t>
 &lt;/section&gt;
 </t>
 <t tx="leo.20210418211321.1">&lt;section&gt;
-    &lt;h2 align="centert"&gt;week9&lt;/h2&gt;
     &lt;h3 align="left"&gt;重點總結&lt;/h3&gt;
     &lt;p align="left"&gt;機器手臂運動&lt;/p&gt;
     &lt;p align="left"&gt;運動學&lt;/p&gt;
@@ -468,6 +469,17 @@ vertical: body pane on the botton</t>
     &lt;/section&gt;</t>
 <t tx="leo.20210422004126.1">&lt;section&gt;
 &lt;h2 align="centert"&gt;本週主軸:CoppeliaSim模擬與運送機構創建&lt;/h2&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210422005743.1">&lt;section&gt;
+    &lt;h2 align="centert"&gt;week9&lt;/h2&gt;
+   
+    
+    
+&lt;/section&gt;</t>
+<t tx="leo.20210422005842.1">&lt;section&gt;
+      &lt;h2 align="left"&gt;影片&lt;/h2&gt;
+      &lt;iframe width="560" height="400" src="https://www.youtube.com/embed/pLdbxNwan2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+    
 &lt;/section&gt;</t>
 </tnodes>
 </leo_file>
