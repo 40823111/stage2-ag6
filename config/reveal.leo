@@ -22,8 +22,8 @@
 <v t="leo.20200818170535.1"><vh>slide 2</vh>
 <v t="leo.20210418201248.1"><vh>Week6</vh></v>
 <v t="leo.20210421172525.1"><vh>構想提出</vh></v>
-<v t="leo.20210421172526.1"><vh>討論結果</vh></v>
 <v t="leo.20210418200557.1"><vh>slide 2-2</vh></v>
+<v t="leo.20210421172526.1"><vh>討論結果</vh></v>
 </v>
 <v t="leo.20200818170636.1"><vh>Week7</vh>
 <v t="leo.20200818170909.1"><vh>slide 3-1</vh></v>
@@ -300,7 +300,7 @@ vertical: body pane on the botton</t>
 &lt;p align="left"&gt;2.使用類似螺紋的概念把球輸送到想要的平台&lt;/p&gt;
 &lt;p align="left"&gt;3.希望可以把球的軌跡沿著螺旋線上升&lt;/p&gt;
 &lt;p align="left"&gt;4.做成一個循迴機構&lt;/p&gt;
-&lt;p align="center"&gt;主要物件: 2隻機械手臂(王銘楫和廖璟承) 平台和送球機構(許耀中和范維倫)
+&lt;p align="center"&gt;主要物件: 2隻機械手臂、 平台和送球機構
 
 &lt;/p&gt;
 &lt;/section&gt;
