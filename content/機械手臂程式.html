@@ -123,7 +123,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='introduction.html'>introduction</a><li class='has-children'><a href='week.html'>week</a><ul class='dropdown'><li><a href='week6.html'>week6</a><li class='has-children'><a href='week7.html'>week7</a><ul class='dropdown'><li><a href='CoppeliaSim模擬與運送機構創建.html'>CoppeliaSim模擬與運送機構創建</a><li><a href='CoppeliaSim模擬 手動操控機械手臂.html'>CoppeliaSim模擬 手動操控機械手臂</a><li><a href='機械結構.html'>機械結構</a></li></ul><li class='has-children'><a href='week8.html'>week8</a><ul class='dropdown'><li><a href='機械手臂程式.html'>機械手臂程式</a></li></ul><li><a href='week9.html'>week9</a></li></ul><li><a href='成品.html'>成品</a></li>
+                     <li><a href='introduction.html'>introduction</a><li class='has-children'><a href='week.html'>week</a><ul class='dropdown'><li><a href='week6.html'>week6</a><li class='has-children'><a href='week7.html'>week7</a><ul class='dropdown'><li><a href='CoppeliaSim模擬與運送機構創建.html'>CoppeliaSim模擬與運送機構創建</a><li><a href='CoppeliaSim模擬 手動操控機械手臂.html'>CoppeliaSim模擬 手動操控機械手臂</a><li><a href='機械結構.html'>機械結構</a></li></ul><li class='has-children'><a href='week8.html'>week8</a><ul class='dropdown'><li><a href='機械手臂程式.html'>機械手臂程式</a><li><a href='送球機構.html'>送球機構</a></li></ul><li><a href='week9.html'>week9</a></li></ul><li><a href='成品.html'>成品</a></li>
                       </ul>
                 </nav>
               </div>
@@ -134,72 +134,10 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">week8 << <a href='week8.html'>Previous</a> <a href='week9.html'>Next</a> >> week9<br /><h1>機械手臂程式</h1>
+    <div id="tipue_search_content">week8 << <a href='week8.html'>Previous</a> <a href='送球機構.html'>Next</a> >> 送球機構<br /><h1>機械手臂程式</h1>
 <p></p>
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/XAc5le46Wso" title="YouTube video player" width="560"></iframe></p>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">threadFunction=function()
-    while sim.getSimulationState()~=sim.simulation_advancing_abouttostop do
-        -- Read the keyboard messages (make sure the focus is on the main window, scene view):
-        message,auxiliaryData=sim.getSimulatorMessage()
-        while message~=-1 do
-            if (message==sim.message_keypress) then
-                if (auxiliaryData[1]==97) then
-                    -- d key
-                    if(o &lt; i*10) then
-                    o = o+i
-                    velocity=velocity+0.11
-                    torque=torque+0.1
-                    hammer_back = 0
-                    end
-                end
-                if (auxiliaryData[1]==100) then
-                    -- a key 
-                    if(o &gt; -i*10) then
-                    o = o-i
-                    velocity=velocity-0.11
-                    torque=torque-0.1
-                    hammer_back = 1
-                    end
-                end
-                
-            end
-            message,auxiliaryData=sim.getSimulatorMessage()
-        end
- 
-        -- We take care of setting the desired hammer position:
-        if hammer_back == 1
-            then 
-               sim.setJointPosition(joint, -1, orientation)
-               --sim.setObjectPosition(hammer,-1, position)
-        end
-        sim.setJointTargetPosition(joint, velocity)
-        --sim.setJointForce(joint,torque)
-
-        -- Since this script is threaded, don't waste time here:
-        sim.switchThread() -- Resume the script at next simulation loop start
-    end
-end
--- Put some initialization code here:
--- Retrieving of some handles and setting of some initial values:
-i = 1
-o = i*1
-joint=sim.getObjectHandle('redundantRob_joint1')
-hammer=sim.getObjectHandle('Rectangle')
-velocity=0
-hammer_back=0
-torque=0
-sliding = 0
-orientation=sim.getJointPosition(joint, -1)
-position=sim.getObjectPosition(hammer,-1)
--- Here we execute the regular thread code:
-res,err=xpcall(threadFunction,function(err) return debug.traceback(err) end)
-if not res then
-    sim.addStatusbarMessage('Lua runtime error: '..err)
-end
- 
--- Put some clean-up code here:
-</pre>
-<br />week8 << <a href='week8.html'>Previous</a> <a href='week9.html'>Next</a> >> week9</div>
+<br />week8 << <a href='week8.html'>Previous</a> <a href='送球機構.html'>Next</a> >> 送球機構</div>
         
     <!-- footer -->
       <div class="container">
