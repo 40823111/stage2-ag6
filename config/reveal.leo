@@ -27,6 +27,7 @@
 </v>
 <v t="leo.20200818170636.1"><vh>Week7</vh>
 <v t="leo.20200818170909.1"><vh>slide 3-1</vh></v>
+<v t="leo.20210422004126.1"><vh>newHeadline</vh></v>
 <v t="leo.20200818170953.1"><vh>slide 3-2</vh></v>
 <v t="leo.20200818171010.1"><vh>slide 3-3</vh></v>
 <v t="leo.20210421173532.1"><vh>UR3</vh></v>
@@ -42,6 +43,8 @@
 </v>
 <v t="leo.20210418211039.1"><vh>slide 4</vh>
 <v t="leo.20200818170725.1"><vh>Week8</vh></v>
+<v t="leo.20210422003714.1"><vh>newHeadline</vh></v>
+<v t="leo.20210422003901.1"><vh>newHeadline</vh></v>
 <v t="leo.20210418211142.1"><vh>問題改善</vh></v>
 <v t="leo.20210421173859.1"><vh>影片</vh></v>
 </v>
@@ -231,13 +234,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200818170725.1">&lt;section&gt;
     &lt;h2 align="centert"&gt;week8&lt;/h2&gt;
-    &lt;p align="left"&gt;本週主軸:機械手臂程式撰寫與送球機構修改&lt;/p&gt;
-    &lt;h3 align="left"&gt;整體運用重點:&lt;/h3&gt;
-    &lt;p align="left"&gt;1.Lua語言&lt;/p&gt;
-   &lt;h4 align="left"&gt;本週問題&lt;/h4&gt;
-    &lt;p align="left"&gt;1.送球機構運動結果未達預期&lt;/p&gt;
-     &lt;p align="left"&gt;2.球到達定點前即掉落&lt;/p&gt;
-      &lt;p align="left"&gt;3.手臂運動路徑不夠近似真實擊球&lt;/p&gt;
+    
     
     
 &lt;/section&gt;
@@ -248,7 +245,7 @@ vertical: body pane on the botton</t>
 &lt;/section&gt;
 </t>
 <t tx="leo.20200818170953.1">&lt;section&gt;
-    &lt;h2 align="left"&gt;本週主軸:CoppeliaSim模擬與運送機構創建&lt;/h2&gt;
+    
     &lt;h3 align="left"&gt;整體運用重點&lt;/h3&gt;
     
 &lt;p align="left"&gt;1.本週主軸:CoppeliaSim模擬與運送機構創建&lt;/p&gt;
@@ -284,15 +281,9 @@ vertical: body pane on the botton</t>
 
 </t>
 <t tx="leo.20200818195748.1">&lt;section&gt;
-    &lt;h2&gt;Much more&lt;/h2&gt;
-    &lt;ul&gt;
-        &lt;li&gt;Right-to-left support&lt;/li&gt;
-        &lt;li&gt;&lt;a href="https://revealjs.com/api/"&gt;Extensive JavaScript API&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="https://revealjs.com/auto-slide/"&gt;Auto-progression&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="https://revealjs.com/backgrounds/#parallax-background"&gt;Parallax backgrounds&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href="https://revealjs.com/keyboard/"&gt;Custom keyboard bindings&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
+&lt;iframe height="620" src="https://drive.google.com/file/d/1DhByVUlCXPZ6WY2oT5gK-zvgHnzTMqlH/view?usp=preview" width="550"&gt;&lt;/iframe&gt;
 &lt;/section&gt;
+
 
 </t>
 <t tx="leo.20210418200557.1">&lt;section&gt;
@@ -462,5 +453,21 @@ vertical: body pane on the botton</t>
     
 &lt;/section&gt;
 </t>
+<t tx="leo.20210422003714.1">&lt;section&gt;
+    &lt;h2 align="centert"&gt;本週主軸:機械手臂程式撰寫與送球機構修改&lt;h2p&gt;
+  
+    
+&lt;/section&gt;</t>
+<t tx="leo.20210422003901.1">&lt;section&gt;
+  &lt;h3 align="left"&gt;整體運用重點:&lt;/h3&gt;
+    &lt;p align="left"&gt;1.Lua語言&lt;/p&gt;
+   &lt;h4 align="left"&gt;本週問題&lt;/h4&gt;
+    &lt;p align="left"&gt;1.送球機構運動結果未達預期&lt;/p&gt;
+     &lt;p align="left"&gt;2.球到達定點前即掉落&lt;/p&gt;
+      &lt;p align="left"&gt;3.手臂運動路徑不夠近似真實擊球&lt;/p&gt;
+    &lt;/section&gt;</t>
+<t tx="leo.20210422004126.1">&lt;section&gt;
+&lt;h2 align="centert"&gt;本週主軸:CoppeliaSim模擬與運送機構創建&lt;/h2&gt;
+&lt;/section&gt;</t>
 </tnodes>
 </leo_file>
