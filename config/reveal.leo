@@ -20,29 +20,37 @@
 <v t="leo.20200818170222.1"><vh>slides div</vh>
 <v t="leo.20200818170328.1"><vh>slide 1</vh></v>
 <v t="leo.20200818170535.1"><vh>slide 2</vh>
-<v t="leo.20210418201248.1"><vh>slide 2-1</vh></v>
+<v t="leo.20210418201248.1"><vh>Week6</vh></v>
+<v t="leo.20210421172525.1"><vh>構想提出</vh></v>
+<v t="leo.20210421172526.1"><vh>討論結果</vh></v>
 <v t="leo.20210418200557.1"><vh>slide 2-2</vh></v>
 </v>
-<v t="leo.20200818170636.1"><vh>slide3</vh>
+<v t="leo.20200818170636.1"><vh>Week7</vh>
 <v t="leo.20200818170909.1"><vh>slide 3-1</vh></v>
 <v t="leo.20200818170953.1"><vh>slide 3-2</vh></v>
 <v t="leo.20200818171010.1"><vh>slide 3-3</vh></v>
+<v t="leo.20210421173532.1"><vh>UR3</vh></v>
 <v t="leo.20210418204332.1"><vh>slide 3-4</vh></v>
-<v t="leo.20210418204421.1"><vh>slide 3-5</vh></v>
-<v t="leo.20210418205224.1"><vh>slide 3-6</vh></v>
-<v t="leo.20210418210134.1"><vh>slide 3-7</vh></v>
-<v t="leo.20210418210402.1"><vh>slide 3-8</vh></v>
+<v t="leo.20210421165633.1"><vh>slide 3-5</vh></v>
+<v t="leo.20210421170137.1"><vh>本週問題</vh></v>
+<v t="leo.20210421170403.1"><vh>問題改善</vh></v>
+<v t="leo.20210421170838.1"><vh>數值</vh></v>
+<v t="leo.20210418204421.1"><vh>slide 3-6</vh></v>
+<v t="leo.20210418205224.1"><vh>slide 3-7</vh></v>
+<v t="leo.20210418210134.1"><vh>slide 3-8</vh></v>
+<v t="leo.20210418210402.1"><vh>slide 3-9</vh></v>
 </v>
 <v t="leo.20210418211039.1"><vh>slide 4</vh>
-<v t="leo.20200818170725.1"><vh>slide 4-1</vh></v>
-<v t="leo.20210418211142.1"><vh>slide 4-2</vh></v>
+<v t="leo.20200818170725.1"><vh>Week8</vh></v>
+<v t="leo.20210418211142.1"><vh>問題改善</vh></v>
+<v t="leo.20210421173859.1"><vh>影片</vh></v>
 </v>
 <v t="leo.20200818171138.1"><vh>slide 5 </vh>
 <v t="leo.20210418211321.1"><vh>slide 5-1</vh></v>
 <v t="leo.20210418211620.1"><vh>slide 5-2</vh></v>
 <v t="leo.20210418211716.1"><vh>slide 5-3</vh></v>
 </v>
-<v t="leo.20200818195748.1"><vh>slide 30</vh></v>
+<v t="leo.20200818195748.1"><vh>成品</vh></v>
 </v>
 </v>
 </v>
@@ -132,11 +140,13 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="leo.20200818165234.1">@language xml
 @tabwidth -4
-@others</t>
+@others
+</t>
 <t tx="leo.20200818165301.1">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
 @others
-&lt;/html&gt;</t>
+&lt;/html&gt;
+</t>
 <t tx="leo.20200818165413.1">&lt;body&gt;
 @others
     &lt;script src="dist/reveal.js"&gt;&lt;/script&gt;
@@ -160,7 +170,8 @@ vertical: body pane on the botton</t>
         });
 
     &lt;/script&gt;
-&lt;/body&gt;</t>
+&lt;/body&gt;
+</t>
 <t tx="leo.20200818165438.1">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 
@@ -180,14 +191,17 @@ vertical: body pane on the botton</t>
 
     &lt;!-- Theme used for syntax highlighting of code --&gt;
     &lt;link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme"&gt;
-&lt;/head&gt;</t>
+&lt;/head&gt;
+</t>
 <t tx="leo.20200818170041.1">&lt;div class="reveal"&gt;
     @others
-&lt;/div&gt;</t>
+&lt;/div&gt;
+</t>
 <t tx="leo.20200818170222.1">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
 &lt;div class="slides"&gt;
     @others
-&lt;/div&gt;</t>
+&lt;/div&gt;
+</t>
 <t tx="leo.20200818170328.1">&lt;section&gt;
     &lt;a href="stage2-ag6"&gt;
     
@@ -219,11 +233,11 @@ vertical: body pane on the botton</t>
     &lt;h2 align="centert"&gt;week8&lt;/h2&gt;
     &lt;p align="left"&gt;本週主軸:機械手臂程式撰寫與送球機構修改&lt;/p&gt;
     &lt;h3 align="left"&gt;整體運用重點:&lt;/h3&gt;
-    &lt;p align="left"&gt;Lua語言&lt;/p&gt;
+    &lt;p align="left"&gt;1.Lua語言&lt;/p&gt;
    &lt;h4 align="left"&gt;本週問題&lt;/h4&gt;
-    &lt;p align="left"&gt;送球機構運動結果未達預期&lt;/p&gt;
-     &lt;p align="left"&gt;球到達定點前即掉落&lt;/p&gt;
-      &lt;p align="left"&gt;手臂運動路徑不夠近似真實擊球&lt;/p&gt;
+    &lt;p align="left"&gt;1.送球機構運動結果未達預期&lt;/p&gt;
+     &lt;p align="left"&gt;2.球到達定點前即掉落&lt;/p&gt;
+      &lt;p align="left"&gt;3.手臂運動路徑不夠近似真實擊球&lt;/p&gt;
     
     
 &lt;/section&gt;
@@ -234,7 +248,7 @@ vertical: body pane on the botton</t>
 &lt;/section&gt;
 </t>
 <t tx="leo.20200818170953.1">&lt;section&gt;
-    &lt;h2 align="left"&gt;CoppeliaSim模擬與運送機構創建&lt;/h2&gt;
+    &lt;h2 align="left"&gt;本週主軸:CoppeliaSim模擬與運送機構創建&lt;/h2&gt;
     &lt;h3 align="left"&gt;整體運用重點&lt;/h3&gt;
     
 &lt;p align="left"&gt;1.本週主軸:CoppeliaSim模擬與運送機構創建&lt;/p&gt;
@@ -258,8 +272,10 @@ vertical: body pane on the botton</t>
     &lt;h3 align="left"&gt;問題改善:&lt;/h3&gt;
    &lt;p align="left"&gt;1.藉由DH法做運動預期&lt;/p&gt;
 &lt;p align="left"&gt;2.加入運動學運算&lt;/p&gt;
+
     
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20200818171138.1">&lt;!-- Example of nested vertical slides --&gt;
 &lt;section&gt;
     @others
@@ -280,31 +296,35 @@ vertical: body pane on the botton</t>
 
 </t>
 <t tx="leo.20210418200557.1">&lt;section&gt;
-   &lt;p&gt;一個平台(棒球場) 球打出去後可以接球(防守者) 漏接的球可以自動流回輸送台，再次被送回來
-使用類似螺紋的概念把球輸送到想要的平台
-希望可以把球的軌跡沿著螺旋線上升
-做成一個循迴機構
-主要物件: 2隻機械手臂(王銘楫和廖璟承) 平台和送球機構(許耀中和范維倫)
-        
-    &lt;/p&gt;
+  &lt;p align="left"&gt;1.一個平台(棒球場) 球打出去後可以接球(防守者) 漏接的球可以自動流回輸送台，再次被送回來&lt;/p&gt;
+&lt;p align="left"&gt;2.使用類似螺紋的概念把球輸送到想要的平台&lt;/p&gt;
+&lt;p align="left"&gt;3.希望可以把球的軌跡沿著螺旋線上升&lt;/p&gt;
+&lt;p align="left"&gt;4.做成一個循迴機構&lt;/p&gt;
+&lt;p align="center"&gt;主要物件: 2隻機械手臂(王銘楫和廖璟承) 平台和送球機構(許耀中和范維倫)
+
+&lt;/p&gt;
 &lt;/section&gt;
 </t>
 <t tx="leo.20210418201248.1">&lt;section&gt;
     &lt;h2&gt;Week6&lt;/h2&gt;
-   &lt;h3&gt;題目:自動打球機及手動接球&lt;/h3&gt;
-&lt;/section&gt;</t>
+   &lt;h3&gt;題目:棒球打擊模擬&lt;/h3&gt;
+  
+&lt;/section&gt;
+</t>
 <t tx="leo.20210418204332.1">&lt;section&gt;
-   &lt;h2 align="left"&gt;CoppeliaSim模擬 手動操控機械手臂&lt;/h2&gt;
+   &lt;h2 align="center"&gt;CoppeliaSim模擬 手動操控機械手臂&lt;/h2&gt;
  
     
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20210418204421.1">&lt;section&gt;
    &lt;h2 align="left"&gt;機械結構&lt;/h2&gt;
    &lt;h3 align="left"&gt;第一次模擬→ 失敗&lt;/h3&gt;
-  &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Y33taPcSXP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;iframe width="560" height="500" src="https://www.youtube.com/embed/Y33taPcSXP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
  
     
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20210418205224.1">&lt;section&gt;
    &lt;h2 align="left"&gt;遇到問題&lt;/h2&gt;
  &lt;p align="left"&gt;因為我們是設計螺旋線的上升機構， 所以到輸送平台時把它用直線，導致不符合公差尺寸而跑掉&lt;/p&gt;
@@ -312,29 +332,34 @@ vertical: body pane on the botton</t>
  
  
     
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20210418210134.1">&lt;section&gt;
    &lt;h3 align="left"&gt;改善前&lt;/h3&gt;
-    &lt;p&gt;&lt;img src="https://127.0.0.1:9443/images/44085.jpg"width=500 height=400&gt;
+    &lt;p&gt;&lt;img src="https://127.0.0.1:9443/images/44085.jpg"width=600 height=600&gt;
  
     
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20210418210402.1">&lt;section&gt;
    &lt;h3 align="left"&gt;改善後&lt;/h3&gt;
    &lt;p&gt;&lt;img src="https://127.0.0.1:9443/images/messageImage_1618473034644.jpg"width=500 height=400&gt;
  
     
 &lt;/section&gt;
-   </t>
+   
+</t>
 <t tx="leo.20210418211039.1">&lt;!-- Example of nested vertical slides --&gt;
 &lt;section&gt;
     @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20210418211142.1">&lt;section&gt;
       &lt;h2 align="left"&gt;問題改善:&lt;/h2&gt;
        &lt;p align="left"&gt;擋板修改&lt;/p&gt;
           &lt;p align="left"&gt;修改至接近真人手臂擊球的動作&lt;/p&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20210418211321.1">&lt;section&gt;
     &lt;h2 align="centert"&gt;week9&lt;/h2&gt;
     &lt;h3 align="left"&gt;重點總結&lt;/h3&gt;
@@ -365,6 +390,77 @@ vertical: body pane on the botton</t>
         
     
     
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
+<t tx="leo.20210421165633.1">&lt;section&gt;
+&lt;h2 align="left"&gt;整體運用重點:&lt;/h2&gt;
+&lt;p align="left"&gt;1.向本週主軸:CoppeliaSim模擬與運送機構創建&lt;/p&gt;
+&lt;h2 align="left"&gt;整體運用重點:&lt;/h2&gt;
+&lt;p align="left"&gt;1.lua 產生路徑&lt;/p&gt;
+&lt;p align="left"&gt; 2.鍵盤ASCII控制字符&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;/section&gt;
+</t>
+<t tx="leo.20210421170137.1">&lt;section&gt;
+&lt;h2 align="left"&gt;本週問題&lt;/h2&gt;
+&lt;p align="left"&gt;1.控制關節時，每個關節所設置的位置與阻尼參數不同，會有抖動的情形發生&lt;/p&gt;
+&lt;p align="left"&gt;2.關節2的部分因為承受整隻手臂的絕大重量，所以轉動到了一定角度後會因為自身重量而倒下&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+&lt;/section&gt;
+</t>
+<t tx="leo.20210421170403.1">&lt;section&gt;
+&lt;h2 align="left"&gt;問題改善&lt;/h2&gt;
+&lt;p align="left"&gt;1.所有的參數都設成一樣的並把馬達改成控制模式&lt;p&gt;
+&lt;p align="left"&gt;2.每隻關節都設置了轉動條件，限制轉動的次數，且設置了兩個參數控制互鎖，並用自身相加方式達成可以重複接收訊號，另外關節2在關節與程式另有限制轉動的角度跟輸入次數，當按下按鍵一定次數後必須往反方向轉動，否則互鎖。
+
+
+
+
+&lt;/section&gt;
+</t>
+<t tx="leo.20210421170838.1">&lt;section&gt;&lt;p&gt;&lt;img src="https://127.0.0.1:9443/images/1.jpg"width=700 height=700&gt;&lt;/section&gt;
+</t>
+<t tx="leo.20210421172525.1">&lt;section&gt;
+   
+  &lt;h2 align="left"&gt;構想提出:&lt;/h2&gt; 
+  &lt;p align="left"&gt;方向:球類運動&lt;/p&gt;
+  &lt;p align="left"&gt;模擬:coppeliasim&lt;/p&gt;
+  &lt;p align="left"&gt;可經由機械手臂達成&lt;/p&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20210421172526.1">&lt;section&gt;
+  &lt;h2 align="left"&gt;討論結果:&lt;/h2&gt; 
+  &lt;p align="left"&gt;棒球打擊模擬&lt;/p&gt;
+  &lt;p align="left"&gt;由stage1延伸&lt;/p&gt;
+  &lt;p align="left"&gt;棒球經由機構送達&lt;/p&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20210421173532.1">   &lt;section&gt;&lt;p&gt;&lt;img src="https://127.0.0.1:9443/images/messageImage_1618997380471.jpg"width=700 height=700&gt;&lt;/section&gt;
+</t>
+<t tx="leo.20210421173859.1">&lt;section&gt;
+      &lt;h2 align="left"&gt;影片&lt;/h2&gt;
+      &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XAc5le46Wso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+    
+&lt;/section&gt;
+</t>
 </tnodes>
 </leo_file>

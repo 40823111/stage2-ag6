@@ -38,16 +38,30 @@
         <section>
             <section>
                 <h2>Week6</h2>
-               <h3>題目:自動打球機及手動接球</h3>
+               <h3>題目:棒球打擊模擬</h3>
+              
             </section>
             <section>
-               <p>一個平台(棒球場) 球打出去後可以接球(防守者) 漏接的球可以自動流回輸送台，再次被送回來
-            使用類似螺紋的概念把球輸送到想要的平台
-            希望可以把球的軌跡沿著螺旋線上升
-            做成一個循迴機構
-            主要物件: 2隻機械手臂(王銘楫和廖璟承) 平台和送球機構(許耀中和范維倫)
-                    
-                </p>
+               
+              <h2 align="left">構想提出:</h2> 
+              <p align="left">方向:球類運動</p>
+              <p align="left">模擬:coppeliasim</p>
+              <p align="left">可經由機械手臂達成</p>
+            </section>
+            <section>
+              <h2 align="left">討論結果:</h2> 
+              <p align="left">棒球打擊模擬</p>
+              <p align="left">由stage1延伸</p>
+              <p align="left">棒球經由機構送達</p>
+            </section>
+            <section>
+              <p align="left">1.一個平台(棒球場) 球打出去後可以接球(防守者) 漏接的球可以自動流回輸送台，再次被送回來</p>
+            <p align="left">2.使用類似螺紋的概念把球輸送到想要的平台</p>
+            <p align="left">3.希望可以把球的軌跡沿著螺旋線上升</p>
+            <p align="left">4.做成一個循迴機構</p>
+            <p align="center">主要物件: 2隻機械手臂(王銘楫和廖璟承) 平台和送球機構(許耀中和范維倫)
+
+            </p>
             </section>
         </section>
 
@@ -61,7 +75,7 @@
                 <h2>week7</h2>
             </section>
             <section>
-                <h2 align="left">CoppeliaSim模擬與運送機構創建</h2>
+                <h2 align="left">本週主軸:CoppeliaSim模擬與運送機構創建</h2>
                 <h3 align="left">整體運用重點</h3>
                 
             <p align="left">1.本週主軸:CoppeliaSim模擬與運送機構創建</p>
@@ -84,17 +98,62 @@
                 <h3 align="left">問題改善:</h3>
                <p align="left">1.藉由DH法做運動預期</p>
             <p align="left">2.加入運動學運算</p>
+
                 
             </section>
+               <section><p><img src="https://127.0.0.1:9443/images/messageImage_1618997380471.jpg"width=700 height=700></section>
             <section>
-               <h2 align="left">CoppeliaSim模擬 手動操控機械手臂</h2>
+               <h2 align="center">CoppeliaSim模擬 手動操控機械手臂</h2>
              
                 
             </section>
             <section>
+            <h2 align="left">整體運用重點:</h2>
+            <p align="left">1.向本週主軸:CoppeliaSim模擬與運送機構創建</p>
+            <h2 align="left">整體運用重點:</h2>
+            <p align="left">1.lua 產生路徑</p>
+            <p align="left"> 2.鍵盤ASCII控制字符</p>
+
+
+
+
+
+
+
+
+
+
+            </section>
+            <section>
+            <h2 align="left">本週問題</h2>
+            <p align="left">1.控制關節時，每個關節所設置的位置與阻尼參數不同，會有抖動的情形發生</p>
+            <p align="left">2.關節2的部分因為承受整隻手臂的絕大重量，所以轉動到了一定角度後會因為自身重量而倒下</p>
+
+
+
+
+
+
+
+
+
+
+
+            </section>
+            <section>
+            <h2 align="left">問題改善</h2>
+            <p align="left">1.所有的參數都設成一樣的並把馬達改成控制模式<p>
+            <p align="left">2.每隻關節都設置了轉動條件，限制轉動的次數，且設置了兩個參數控制互鎖，並用自身相加方式達成可以重複接收訊號，另外關節2在關節與程式另有限制轉動的角度跟輸入次數，當按下按鍵一定次數後必須往反方向轉動，否則互鎖。
+
+
+
+
+            </section>
+            <section><p><img src="https://127.0.0.1:9443/images/1.jpg"width=700 height=700></section>
+            <section>
                <h2 align="left">機械結構</h2>
                <h3 align="left">第一次模擬→ 失敗</h3>
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/Y33taPcSXP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="500" src="https://www.youtube.com/embed/Y33taPcSXP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
              
                 
             </section>
@@ -108,7 +167,7 @@
             </section>
             <section>
                <h3 align="left">改善前</h3>
-                <p><img src="https://127.0.0.1:9443/images/44085.jpg"width=500 height=400>
+                <p><img src="https://127.0.0.1:9443/images/44085.jpg"width=600 height=600>
              
                 
             </section>
@@ -127,11 +186,11 @@
                 <h2 align="centert">week8</h2>
                 <p align="left">本週主軸:機械手臂程式撰寫與送球機構修改</p>
                 <h3 align="left">整體運用重點:</h3>
-                <p align="left">Lua語言</p>
+                <p align="left">1.Lua語言</p>
                <h4 align="left">本週問題</h4>
-                <p align="left">送球機構運動結果未達預期</p>
-                 <p align="left">球到達定點前即掉落</p>
-                  <p align="left">手臂運動路徑不夠近似真實擊球</p>
+                <p align="left">1.送球機構運動結果未達預期</p>
+                 <p align="left">2.球到達定點前即掉落</p>
+                  <p align="left">3.手臂運動路徑不夠近似真實擊球</p>
                 
                 
             </section>
@@ -140,6 +199,11 @@
                   <h2 align="left">問題改善:</h2>
                    <p align="left">擋板修改</p>
                       <p align="left">修改至接近真人手臂擊球的動作</p>
+            </section>
+            <section>
+                  <h2 align="left">影片</h2>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/XAc5le46Wso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
             </section>
         </section>
         <!-- Example of nested vertical slides -->
