@@ -123,7 +123,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='introduction.html'>introduction</a><li class='has-children'><a href='week.html'>week</a><ul class='dropdown'><li><a href='week6.html'>week6</a><li class='has-children'><a href='week7.html'>week7</a><ul class='dropdown'><li><a href='CoppeliaSim模擬與運送機構創建.html'>CoppeliaSim模擬與運送機構創建</a><li><a href='CoppeliaSim模擬 手動操控機械手臂.html'>CoppeliaSim模擬 手動操控機械手臂</a><li><a href='機械結構.html'>機械結構</a></li></ul><li><a href='week8.html'>week8</a><li><a href='week9.html'>week9</a></li></ul><li><a href='成品.html'>成品</a></li>
+                     <li><a href='introduction.html'>introduction</a><li class='has-children'><a href='week.html'>week</a><ul class='dropdown'><li><a href='week6.html'>week6</a><li class='has-children'><a href='week7.html'>week7</a><ul class='dropdown'><li><a href='CoppeliaSim模擬與運送機構創建.html'>CoppeliaSim模擬與運送機構創建</a><li><a href='CoppeliaSim模擬 手動操控機械手臂.html'>CoppeliaSim模擬 手動操控機械手臂</a><li><a href='機械結構.html'>機械結構</a></li></ul><li class='has-children'><a href='week8.html'>week8</a><ul class='dropdown'><li><a href='機械手臂程式.html'>機械手臂程式</a></li></ul><li><a href='week9.html'>week9</a></li></ul><li><a href='成品.html'>成品</a></li>
                       </ul>
                 </nav>
               </div>
@@ -140,13 +140,16 @@ img.add_border {
 <li>向本週主軸:CoppeliaSim模擬與運送機構創建</li>
 </ol>
 <p><span>整體運用重點:</span></p>
-<p><span>     1.</span></p>
+<p><span>     1.lua 產生路徑</span></p>
+<p>     2.<span>鍵盤ASCII控制字符</span></p>
 <p>本週問題:</p>
 <p>     1.<span>控制關節時，每個關節所設置的位置與阻尼參數不同，會有抖動的情形發生</span></p>
 <p>     2.關節2的部分因為承受整隻手臂的絕大重量，所以轉動到了一定角度後會因為自身重量而倒下</p>
 <p><span>問題改善:</span></p>
 <p>    1.<span>所有的參數都設成一樣的並把馬達改成控制模式</span></p>
-<p><span>    2.每隻關節都設置了轉動條件，限制轉動的次數，且設置了兩個參數控制互鎖，並用自身相加方式達成    可以重複接收訊號，另外關節2在關節與程式另有限制轉動的角度跟輸入次數，當按下按鍵一定次數後必須往反方向轉動，否則互鎖。</span></p>
+<p><span>    2.每隻關節都設置了轉動條件，限制轉動的次數，且設置了兩個參數控制互鎖，並用自身相加方式達成        可以重複接收訊號，另外關節2在關節與程式另有限制轉動的角度跟輸入次數，當按下按鍵一定次數          後 必須往反方向轉動，否則互鎖。</span></p>
+<p><span><img alt="" height="709" src="./../images/1.jpg" width="554"/></span></p>
+<p><span></span></p>
 <p></p>
 <br />CoppeliaSim模擬與運送機構創建 << <a href='CoppeliaSim模擬與運送機構創建.html'>Previous</a> <a href='機械結構.html'>Next</a> >> 機械結構</div>
         

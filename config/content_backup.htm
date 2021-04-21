@@ -10,7 +10,7 @@
 <p><span>40823139  <a href="http://40823139.github.io/cd2021">王銘楫</a></span></p>
 <h1>week</h1>
 <h2>week6</h2>
-<p><span>題目 : 自動打球機及手動接球</span></p>
+<p><span>題目 : 1.棒球打擊模擬</span></p>
 <ol>
 <li>一個平台(棒球場) 球打出去後可以接球(防守者) 漏接的球可以自動流回輸送台，再次被送回來</li>
 <li>使用類似螺紋的概念把球輸送到想要的平台</li>
@@ -42,6 +42,21 @@
 <li>加入運動學運算</li>
 </ol>
 <h3>CoppeliaSim模擬 手動操控機械手臂</h3>
+<p><span>整體運用重點:</span></p>
+<ol>
+<li>向本週主軸:CoppeliaSim模擬與運送機構創建</li>
+</ol>
+<p><span>整體運用重點:</span></p>
+<p><span>     1.lua 產生路徑</span></p>
+<p>     2.<span>鍵盤ASCII控制字符</span></p>
+<p>本週問題:</p>
+<p>     1.<span>控制關節時，每個關節所設置的位置與阻尼參數不同，會有抖動的情形發生</span></p>
+<p>     2.關節2的部分因為承受整隻手臂的絕大重量，所以轉動到了一定角度後會因為自身重量而倒下</p>
+<p><span>問題改善:</span></p>
+<p>    1.<span>所有的參數都設成一樣的並把馬達改成控制模式</span></p>
+<p><span>    2.每隻關節都設置了轉動條件，限制轉動的次數，且設置了兩個參數控制互鎖，並用自身相加方式達成        可以重複接收訊號，另外關節2在關節與程式另有限制轉動的角度跟輸入次數，當按下按鍵一定次數          後 必須往反方向轉動，否則互鎖。</span></p>
+<p><span><img alt="" height="709" src="/images/1.jpg" width="554"/></span></p>
+<p><span></span></p>
 <p></p>
 <h3>機械結構</h3>
 <p>第一次模擬<span>→ 失敗</span></p>
@@ -72,7 +87,70 @@
 <li>擋板修改</li>
 <li>修改至接近真人手臂擊球的動作</li>
 </ol>
+<h3><span>機械手臂程式</span></h3>
 <p></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">threadFunction=function()
+    while sim.getSimulationState()~=sim.simulation_advancing_abouttostop do
+        -- Read the keyboard messages (make sure the focus is on the main window, scene view):
+        message,auxiliaryData=sim.getSimulatorMessage()
+        while message~=-1 do
+            if (message==sim.message_keypress) then
+                if (auxiliaryData[1]==97) then
+                    -- d key
+                    if(o &lt; i*10) then
+                    o = o+i
+                    velocity=velocity+0.11
+                    torque=torque+0.1
+                    hammer_back = 0
+                    end
+                end
+                if (auxiliaryData[1]==100) then
+                    -- a key 
+                    if(o &gt; -i*10) then
+                    o = o-i
+                    velocity=velocity-0.11
+                    torque=torque-0.1
+                    hammer_back = 1
+                    end
+                end
+                
+            end
+            message,auxiliaryData=sim.getSimulatorMessage()
+        end
+ 
+        -- We take care of setting the desired hammer position:
+        if hammer_back == 1
+            then 
+               sim.setJointPosition(joint, -1, orientation)
+               --sim.setObjectPosition(hammer,-1, position)
+        end
+        sim.setJointTargetPosition(joint, velocity)
+        --sim.setJointForce(joint,torque)
+
+        -- Since this script is threaded, don't waste time here:
+        sim.switchThread() -- Resume the script at next simulation loop start
+    end
+end
+-- Put some initialization code here:
+-- Retrieving of some handles and setting of some initial values:
+i = 1
+o = i*1
+joint=sim.getObjectHandle('redundantRob_joint1')
+hammer=sim.getObjectHandle('Rectangle')
+velocity=0
+hammer_back=0
+torque=0
+sliding = 0
+orientation=sim.getJointPosition(joint, -1)
+position=sim.getObjectPosition(hammer,-1)
+-- Here we execute the regular thread code:
+res,err=xpcall(threadFunction,function(err) return debug.traceback(err) end)
+if not res then
+    sim.addStatusbarMessage('Lua runtime error: '..err)
+end
+ 
+-- Put some clean-up code here:
+</pre>
 <h2>week9</h2>
 <p>重點總結</p>
 <ul>
