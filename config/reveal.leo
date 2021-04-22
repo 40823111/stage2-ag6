@@ -428,7 +428,7 @@ vertical: body pane on the botton</t>
 
 &lt;/section&gt;
 </t>
-<t tx="leo.20210421170838.1">&lt;section&gt;&lt;p&gt;&lt;img src="https://40823111.github.io/stage2-ag6/images/1.jpg&gt;&lt;/section&gt;
+<t tx="leo.20210421170838.1">&lt;section&gt;&lt;h2&gt;&lt;img src="https://40823111.github.io/stage2-ag6/images/1.jpg&gt;&lt;/h2&gt;&lt;/section&gt;
 </t>
 <t tx="leo.20210421172525.1">&lt;section&gt;
    
