@@ -30,7 +30,6 @@
 <v t="leo.20210422004126.1"><vh>newHeadline</vh></v>
 <v t="leo.20200818170953.1"><vh>slide 3-2</vh></v>
 <v t="leo.20200818171010.1"><vh>slide 3-3</vh></v>
-<v t="leo.20210421173532.1"><vh>UR3</vh></v>
 <v t="leo.20210418204332.1"><vh>slide 3-4</vh></v>
 <v t="leo.20210421165633.1"><vh>slide 3-5</vh></v>
 <v t="leo.20210421170137.1"><vh>本週問題</vh></v>
@@ -306,7 +305,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20210418204332.1">&lt;section&gt;
    &lt;h2 align="center"&gt;CoppeliaSim模擬 手動操控機械手臂&lt;/h2&gt;
- 
+ &lt;section&gt;&lt;p&gt;&lt;img src="https://40823111.github.io/stage2-ag6/images/messageImage_1618997380471.jpg"width=700 height=700&gt;&lt;/section&gt;
     
 &lt;/section&gt;
 </t>
@@ -329,14 +328,14 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20210418210134.1">&lt;section&gt;
    &lt;h3 align="left"&gt;改善前&lt;/h3&gt;
-    &lt;p&gt;&lt;img src="https://127.0.0.1:9443/images/44085.jpg"width=600 height=600&gt;
+    &lt;p&gt;&lt;img src="https://40823111.github.io/stage2-ag6/images/44085.jpg"width=600 height=600&gt;
  
     
 &lt;/section&gt;
 </t>
 <t tx="leo.20210418210402.1">&lt;section&gt;
    &lt;h3 align="left"&gt;改善後&lt;/h3&gt;
-   &lt;p&gt;&lt;img src="https://127.0.0.1:9443/images/messageImage_1618473034644.jpg"width=500 height=400&gt;
+   &lt;p&gt;&lt;img src="https://40823111.github.io/stage2-ag6/images/messageImage_1618473034644.jpg"width=500 height=400&gt;
  
     
 &lt;/section&gt;
@@ -429,7 +428,7 @@ vertical: body pane on the botton</t>
 
 &lt;/section&gt;
 </t>
-<t tx="leo.20210421170838.1">&lt;section&gt;&lt;p&gt;&lt;img src="https://127.0.0.1:9443/images/1.jpg"width=700 height=700&gt;&lt;/section&gt;
+<t tx="leo.20210421170838.1">&lt;section&gt;&lt;p&gt;&lt;img src="https://40823111.github.io/stage2-ag6/images/1.jpg&gt;&lt;/section&gt;
 </t>
 <t tx="leo.20210421172525.1">&lt;section&gt;
    
@@ -446,8 +445,6 @@ vertical: body pane on the botton</t>
   &lt;p align="left"&gt;棒球經由機構送達&lt;/p&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20210421173532.1">   &lt;section&gt;&lt;p&gt;&lt;img src="https://127.0.0.1:9443/images/messageImage_1618997380471.jpg"width=700 height=700&gt;&lt;/section&gt;
-</t>
 <t tx="leo.20210421173859.1">&lt;section&gt;
       &lt;h2 align="left"&gt;影片&lt;/h2&gt;
       &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XAc5le46Wso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
@@ -458,7 +455,8 @@ vertical: body pane on the botton</t>
     &lt;h2 align="centert"&gt;本週主軸:機械手臂程式撰寫與送球機構修改&lt;h2p&gt;
   
     
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20210422003901.1">&lt;section&gt;
   &lt;h3 align="left"&gt;整體運用重點:&lt;/h3&gt;
     &lt;p align="left"&gt;1.Lua語言&lt;/p&gt;
@@ -466,20 +464,24 @@ vertical: body pane on the botton</t>
     &lt;p align="left"&gt;1.送球機構運動結果未達預期&lt;/p&gt;
      &lt;p align="left"&gt;2.球到達定點前即掉落&lt;/p&gt;
       &lt;p align="left"&gt;3.手臂運動路徑不夠近似真實擊球&lt;/p&gt;
-    &lt;/section&gt;</t>
+    &lt;/section&gt;
+</t>
 <t tx="leo.20210422004126.1">&lt;section&gt;
 &lt;h2 align="centert"&gt;本週主軸:CoppeliaSim模擬與運送機構創建&lt;/h2&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20210422005743.1">&lt;section&gt;
     &lt;h2 align="centert"&gt;week9&lt;/h2&gt;
    
     
     
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20210422005842.1">&lt;section&gt;
       &lt;h2 align="left"&gt;影片&lt;/h2&gt;
       &lt;iframe width="560" height="400" src="https://www.youtube.com/embed/pLdbxNwan2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
     
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 </tnodes>
 </leo_file>
