@@ -34,10 +34,10 @@
 <v t="leo.20210421165633.1"><vh>slide 3-5</vh></v>
 <v t="leo.20210421170137.1"><vh>本週問題</vh></v>
 <v t="leo.20210421170403.1"><vh>問題改善</vh></v>
+<v t="leo.20210418210134.1"><vh>slide 3-8</vh></v>
 <v t="leo.20210421170838.1"><vh>數值</vh></v>
 <v t="leo.20210418204421.1"><vh>slide 3-6</vh></v>
 <v t="leo.20210418205224.1"><vh>slide 3-7</vh></v>
-<v t="leo.20210418210134.1"><vh>slide 3-8</vh></v>
 <v t="leo.20210418210402.1"><vh>slide 3-9</vh></v>
 </v>
 <v t="leo.20210418211039.1"><vh>slide 4</vh>
@@ -430,7 +430,12 @@ vertical: body pane on the botton</t>
 
 &lt;/section&gt;
 </t>
-<t tx="leo.20210421170838.1">&lt;section&gt;&lt;h2&gt;&lt;img src="https://40823111.github.io/stage2-ag6/images/1.jpg&gt;&lt;/h2&gt;&lt;/section&gt;
+<t tx="leo.20210421170838.1">&lt;section&gt;
+   &lt;h3 align="left"&gt;改善前&lt;/h3&gt;
+    &lt;p&gt;&lt;img src="https://40823111.github.io/stage2-ag6/images/1.jpg"width=600 height=600&gt;
+ 
+    
+&lt;/section&gt;
 </t>
 <t tx="leo.20210421172525.1">&lt;section&gt;
    
